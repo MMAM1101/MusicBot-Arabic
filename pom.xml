@@ -13,11 +13,6 @@
             <url>https://m2.dv8tion.net/releases</url>
         </repository>
         <repository>
-            <id>central</id>
-            <name>bintray</name>
-            <url>https://jcenter.bintray.com</url>
-        </repository>
-        <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
             <snapshots>
@@ -45,7 +40,7 @@
             <version>4.4.1_353</version>
         </dependency>
         <dependency>
-            <groupId>com.jagrosh</groupId>
+            <groupId>com.github.jagrosh</groupId>
             <artifactId>jda-utilities</artifactId>
             <version>3.0.5</version>
             <type>pom</type>
