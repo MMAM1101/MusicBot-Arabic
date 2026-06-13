@@ -3,7 +3,7 @@ FROM maven:3.9.6-eclipse-temurin-11 AS builder
 WORKDIR /app
 COPY pom.xml .
 COPY src ./src
-RUN mvn package -DskipTests -q
+RUN mvn package -DskipTests -U -q
 
 FROM eclipse-temurin:11-jre
 
