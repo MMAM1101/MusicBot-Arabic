@@ -13,7 +13,8 @@ fi
 PREFIX="${PREFIX:-!}"
 
 java -Dnogui=true \
-     -Dtoken="$TOKEN" \
-     -Downer="$OWNER" \
-     -Dprefix="$PREFIX" \
+     -Dconfig.file=/bot/application.conf \
+     -DTOKEN="$TOKEN" \
+     -DOWNER="$OWNER" \
+     -DPREFIX="$PREFIX" \
      -jar JMusicBot.jar
